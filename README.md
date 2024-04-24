@@ -15,11 +15,13 @@ and cmd+click (or ctrl+click) on "http://localhost:3000" to access the server.
     npm i knex sqlite3
  ```
 
- ``` import ao inves de loader
-   npm run knex -- migrate:make create-documents
+ ``` 
+ import ao inves de loader
+     npm run knex -- migrate:make create-documents
  ```
-``` rodar migration
- npm run knex -- migrate:latest
+``` 
+    rodar migration
+    npm run knex -- migrate:latest
  ```
 
 voltar atras para add, mudar
