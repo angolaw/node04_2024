@@ -18,3 +18,9 @@ and cmd+click (or ctrl+click) on "http://localhost:3000" to access the server.
  ``` import ao inves de loader
    npm run knex -- migrate:make create-documents
  ```
+``` rodar migration
+ npm run knex -- migrate:latest
+ ```
+
+voltar atras para add, mudar
+ npm run knex -- migrate:rollback
