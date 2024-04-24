@@ -14,3 +14,7 @@ and cmd+click (or ctrl+click) on "http://localhost:3000" to access the server.
  ```javascript
     npm i knex sqlite3
  ```
+
+ ``` import ao inves de loader
+   npm run knex -- migrate:make create-documents
+ ```
