@@ -39,3 +39,9 @@ voltar atras para add, mudar
   permite retornar tudo 
   return transaction
 ```
+
+Instalando zod
+
+```
+npm i zod
+```

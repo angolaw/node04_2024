@@ -1,3 +1,4 @@
 node_modules
 .idx
 tmp/app.db
+.env
