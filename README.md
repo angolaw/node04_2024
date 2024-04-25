@@ -25,4 +25,17 @@ and cmd+click (or ctrl+click) on "http://localhost:3000" to access the server.
  ```
 
 voltar atras para add, mudar
+ ```
  npm run knex -- migrate:rollback
+ ```
+ 
+```
+  const transaction = await knex("transactions").insert({
+    id:  randomUUID(),
+    title: "Primeira transação",
+    amount: 250,
+    created_at: Date.now().toLocaleString("pt-BR")
+  }).returning("*")
+  permite retornar tudo 
+  return transaction
+```
